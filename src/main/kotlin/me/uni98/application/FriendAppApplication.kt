@@ -16,7 +16,6 @@ class FriendAppApplication : CommandLineRunner {
         log.info("FriendAppApplication is starting up...")
         log.info("Application name from properties: {}", appName)
         log.info("Performing initial setup tasks...")
-        // Add more application-specific startup logic here if needed
         log.info("Application '{}' started successfully!", appName)
     }
 
